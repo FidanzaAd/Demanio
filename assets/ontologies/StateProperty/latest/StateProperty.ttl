@@ -1,0 +1,272 @@
+@prefix : <https://w3id.org/italia/real-estate/onto/StateProperty/> .
+@prefix L0: <https://w3id.org/italia/onto/l0/> .
+@prefix RO: <https://w3id.org/italia/onto/RO/> .
+@prefix TI: <https://w3id.org/italia/onto/TI/> .
+@prefix CLV: <https://w3id.org/italia/onto/CLV/> .
+@prefix COV: <https://w3id.org/italia/onto/COV/> .
+@prefix CPV: <https://w3id.org/italia/onto/CPV/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix smapit: <https://w3id.org/italia/onto/SM/> .
+@prefix countries: <http://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/> .
+@prefix ateco-2007: <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/> .
+@prefix StateProperty: <https://w3id.org/italia/real-estate/onto/StateProperty/> .
+@base <https://w3id.org/italia/real-estate/onto/StateProperty/> .
+
+<https://w3id.org/italia/real-estate/onto/StateProperty/> rdf:type owl:Ontology ;
+                                                           owl:versionIRI <urn:absolute:0.1> .
+
+#################################################################
+#    Datatypes
+
+#################################################################
+
+
+###  http://www.w3.org/2001/XMLSchema#boolean
+xsd:boolean rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#string
+xsd:string rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+
+#################################################################
+
+
+###  https://w3id.org/italia/onto/CLV/hasSpatialCoverage
+CLV:hasSpatialCoverage rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/haCategoriaBeneDelloStato
+StateProperty:haCategoriaBeneDelloStato rdf:type owl:ObjectProperty ,
+                                                 owl:FunctionalProperty ;
+                                        rdfs:domain StateProperty:SchedaDiCatalogazione ;
+                                        rdfs:range StateProperty:CategoriaBeneDelloStato ;
+                                        rdfs:label "ha categoria bene dello Stato"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/haCategoriaPatrimoniale
+StateProperty:haCategoriaPatrimoniale rdf:type owl:ObjectProperty ,
+                                               owl:FunctionalProperty ;
+                                      rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
+                                      rdfs:range StateProperty:TipoCategoriaPatrimonialeImmobile ;
+                                      rdfs:label "ha categoria patrimoniale"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/haCodiceSEC
+StateProperty:haCodiceSEC rdf:type owl:ObjectProperty ,
+                                   owl:FunctionalProperty ;
+                          rdfs:domain StateProperty:BeneImmobileDelloStato ;
+                          rdfs:range StateProperty:CodiceMEFRaccordoSECBeneImmobile ;
+                          rdfs:label "ha codice SEC"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/haDestinazioneDiUso
+StateProperty:haDestinazioneDiUso rdf:type owl:ObjectProperty ,
+                                           owl:FunctionalProperty ;
+                                  rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
+                                  rdfs:range StateProperty:TipoDestinazioneDiUsoImmobile ;
+                                  rdfs:label "ha destinazione di uso"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/haSchedaDiCatalogazione
+StateProperty:haSchedaDiCatalogazione rdf:type owl:ObjectProperty ;
+                                      rdfs:domain StateProperty:BeneImmobileDelloStato ;
+                                      rdfs:range StateProperty:SchedaDiCatalogazione ;
+                                      rdfs:label "ha scheda di catalogazione"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/haStatoDelBeneImmobileDelloStato
+StateProperty:haStatoDelBeneImmobileDelloStato rdf:type owl:ObjectProperty ,
+                                                        owl:InverseFunctionalProperty ;
+                                               rdfs:domain StateProperty:BeneImmobileDelloStato ;
+                                               rdfs:range StateProperty:StatoDelBeneImmobileDelloStato ;
+                                               rdfs:label "ha stato del bene immobile dello Stato"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/haStatoDiAgibilità
+StateProperty:haStatoDiAgibilità rdf:type owl:ObjectProperty ,
+                                          owl:FunctionalProperty ;
+                                 rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
+                                 rdfs:range StateProperty:TipoStatoDiAgibilitàImmobile ;
+                                 rdfs:label "ha stato di agibilità"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/haStatoDiOccupazione
+StateProperty:haStatoDiOccupazione rdf:type owl:ObjectProperty ,
+                                            owl:FunctionalProperty ;
+                                   rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
+                                   rdfs:range StateProperty:TipoStatoDiOccupazioneImmobile ;
+                                   rdfs:label "ha stato di occupazione"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/haTipoDiAccesso
+StateProperty:haTipoDiAccesso rdf:type owl:ObjectProperty ,
+                                       owl:FunctionalProperty ;
+                              rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
+                              rdfs:range StateProperty:TipoDiAccessoImmobile ;
+                              rdfs:label "ha tipo di accesso"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/riferisceProvincia
+StateProperty:riferisceProvincia rdf:type owl:ObjectProperty ,
+                                          owl:FunctionalProperty ;
+                                 rdfs:domain StateProperty:SchedaDiCatalogazione ;
+                                 rdfs:range CLV:Province ;
+                                 rdfs:label "riferisce provincia"@it .
+
+
+#################################################################
+#    Data properties
+
+#################################################################
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/avvisoSchedaProvvisoria
+StateProperty:avvisoSchedaProvvisoria rdf:type owl:DatatypeProperty ,
+                                               owl:FunctionalProperty ;
+                                      rdfs:domain StateProperty:SchedaDiCatalogazione ;
+                                      rdfs:range xsd:boolean ;
+                                      rdfs:label "avviso scheda provvisoria"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/codiceSchedaCatalogazione
+StateProperty:codiceSchedaCatalogazione rdf:type owl:DatatypeProperty ,
+                                                 owl:FunctionalProperty ;
+                                        rdfs:domain StateProperty:SchedaDiCatalogazione ;
+                                        rdfs:range xsd:string ;
+                                        rdfs:label "codice scheda catalogazione"@it .
+
+
+#################################################################
+#    Classes
+
+#################################################################
+
+
+###  https://w3id.org/italia/onto/CLV/Identifier
+CLV:Identifier rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/CLV/Province
+CLV:Province rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/TI/TimeIndexedEvent
+TI:TimeIndexedEvent rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/Area
+StateProperty:Area rdf:type owl:Class ;
+                   owl:disjointWith StateProperty:Fabbricato ;
+                   rdfs:label "Area"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/BeneImmobileDelloStato
+StateProperty:BeneImmobileDelloStato rdf:type owl:Class ;
+                                     rdfs:subClassOf StateProperty:Cespite ,
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty CLV:hasSpatialCoverage ;
+                                                       owl:someValuesFrom owl:Thing
+                                                     ] ;
+                                     rdfs:label "Bene immobile dello Stato"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/CategoriaBeneDelloStato
+StateProperty:CategoriaBeneDelloStato rdf:type owl:Class ;
+                                      rdfs:label "Categoria bene dello Stato"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/Cespite
+StateProperty:Cespite rdf:type owl:Class ;
+                      rdfs:label "Cespite"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/CodiceMEFRaccordoSEC
+StateProperty:CodiceMEFRaccordoSEC rdf:type owl:Class ;
+                                   rdfs:subClassOf CLV:Identifier ;
+                                   rdfs:label "Codice MEF raccordo SEC"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/CodiceMEFRaccordoSECBeneImmobile
+StateProperty:CodiceMEFRaccordoSECBeneImmobile rdf:type owl:Class ;
+                                               rdfs:subClassOf StateProperty:CodiceMEFRaccordoSEC ;
+                                               rdfs:label "Codice MEF raccordo SEC bene immobile"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/Fabbricato
+StateProperty:Fabbricato rdf:type owl:Class ;
+                         rdfs:label "Fabbricato"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/SchedaDiCatalogazione
+StateProperty:SchedaDiCatalogazione rdf:type owl:Class ;
+                                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                          owl:onProperty StateProperty:haCategoriaBeneDelloStato ;
+                                                          owl:someValuesFrom owl:Thing
+                                                        ] ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty StateProperty:riferisceProvincia ;
+                                                          owl:someValuesFrom owl:Thing
+                                                        ] ;
+                                    rdfs:label "Scheda di catalogazione"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/StatoDelBeneImmobileDelloStato
+StateProperty:StatoDelBeneImmobileDelloStato rdf:type owl:Class ;
+                                             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty [ owl:inverseOf StateProperty:haStatoDelBeneImmobileDelloStato
+                                                                                  ] ;
+                                                                   owl:someValuesFrom owl:Thing
+                                                                 ] ;
+                                             rdfs:subClassOf TI:TimeIndexedEvent ;
+                                             rdfs:label "Stato del Bene immobile dello Stato"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile
+StateProperty:TipoCategoriaPatrimonialeImmobile rdf:type owl:Class ;
+                                                rdfs:label "Tipo categoria patrimoniale immobile"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile
+StateProperty:TipoDestinazioneDiUsoImmobile rdf:type owl:Class ;
+                                            rdfs:label "Tipo destinazione di uso immobile"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile
+StateProperty:TipoDiAccessoImmobile rdf:type owl:Class ;
+                                    rdfs:label "Tipo di accesso immobile"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitàImmobile
+StateProperty:TipoStatoDiAgibilitàImmobile rdf:type owl:Class ;
+                                           rdfs:label "Tipo stato di agibilità immobile"@it .
+
+
+###  https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiOccupazioneImmobile
+StateProperty:TipoStatoDiOccupazioneImmobile rdf:type owl:Class ;
+                                             rdfs:label "Tipo stato di occupazione immobile"@it .
+
+
+#################################################################
+#    General axioms
+
+#################################################################
+
+
+[ rdf:type owl:Class ;
+  owl:unionOf ( StateProperty:Area
+                StateProperty:Fabbricato
+              ) ;
+  rdfs:subClassOf StateProperty:BeneImmobileDelloStato
+] .
+
+
+###  Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi

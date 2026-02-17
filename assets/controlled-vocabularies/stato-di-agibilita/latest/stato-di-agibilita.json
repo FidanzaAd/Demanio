@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/AGIB",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilit\u00e0Immobile"
+    ],
+    "id": "AGIB",
+    "definition_it": "Immobile certificato come idoneo all'uso e all'occupazione, conforme alle normative tecniche e di sicurezza vigenti.",
+    "definition_en": "Property certified as suitable for use and occupation, compliant with current technical and safety regulations.",
+    "label_it": "AGIBILE",
+    "label_en": "HABITABLE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/DEGRAD",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilit\u00e0Immobile"
+    ],
+    "id": "DEGRAD",
+    "definition_it": "Immobile in condizioni di degrado fisico ma non oggetto di ordinanze di inagibilit\u00e0, richiedente interventi di recupero.",
+    "definition_en": "Property in physical deterioration but not subject to uninhabitability orders, requiring recovery interventions.",
+    "label_it": "DEGRADATO",
+    "label_en": "DETERIORATED"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/DEMOL",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilit\u00e0Immobile"
+    ],
+    "id": "DEMOL",
+    "definition_it": "Immobile per cui \u00e8 stata disposta la demolizione per motivi di sicurezza o urbanistici.",
+    "definition_en": "Property for which demolition has been ordered for safety or urban planning reasons.",
+    "label_it": "DA DEMOLIRE",
+    "label_en": "TO BE DEMOLISHED"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/INAG",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilit\u00e0Immobile"
+    ],
+    "id": "INAG",
+    "definition_it": "Immobile non idoneo all'uso per gravi carenze strutturali, impiantistiche o igienico-sanitarie, con divieto di occupazione.",
+    "definition_en": "Property unsuitable for use due to serious structural, plant or health deficiencies, with prohibition of occupation.",
+    "label_it": "INAGIBILE",
+    "label_en": "UNINHABITABLE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/NUOVA",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilit\u00e0Immobile"
+    ],
+    "id": "NUOVA",
+    "definition_it": "Immobile di nuova edificazione in attesa di prima certificazione di agibilit\u00e0.",
+    "definition_en": "Newly built property awaiting first habitability certification.",
+    "label_it": "NUOVA COSTRUZIONE",
+    "label_en": "NEW CONSTRUCTION"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/PARZ",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilit\u00e0Immobile"
+    ],
+    "id": "PARZ",
+    "definition_it": "Immobile utilizzabile solo per specifici usi o in determinate porzioni, con limitazioni documentate.",
+    "definition_en": "Property usable only for specific uses or in certain portions, with documented limitations.",
+    "label_it": "PARZIALMENTE AGIBILE",
+    "label_en": "PARTIALLY HABITABLE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/RISTR",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilit\u00e0Immobile"
+    ],
+    "id": "RISTR",
+    "definition_it": "Immobile temporaneamente non utilizzabile a causa di interventi di ristrutturazione, manutenzione straordinaria o adeguamento.",
+    "definition_en": "Property temporarily unusable due to renovation, extraordinary maintenance or adaptation works.",
+    "label_it": "IN RISTRUTTURAZIONE",
+    "label_en": "UNDER RENOVATION"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/SISM",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilit\u00e0Immobile"
+    ],
+    "id": "SISM",
+    "definition_it": "Immobile dichiarato temporaneamente o permanentemente inagibile a seguito di danni da eventi sismici.",
+    "definition_en": "Property declared temporarily or permanently uninhabitable following damage from seismic events.",
+    "label_it": "INAGIBILE PER EVENTI SISMICI",
+    "label_en": "UNINHABITABLE DUE TO SEISMIC EVENTS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/VERIF",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilit\u00e0Immobile"
+    ],
+    "id": "VERIF",
+    "definition_it": "Immobile in fase di accertamento tecnico dello stato di agibilit\u00e0, in attesa di certificazione definitiva.",
+    "definition_en": "Property undergoing technical assessment of habitability status, awaiting final certification.",
+    "label_it": "IN VERIFICA",
+    "label_en": "UNDER ASSESSMENT"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/BARR",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "BARR",
+    "definition_it": "Immobile con presenza di barriere architettoniche che limitano o condizionano l'accessibilit\u00e0.",
+    "definition_en": "Property with architectural barriers that limit or condition accessibility.",
+    "label_it": "ACCESSO CON BARRIERE",
+    "label_en": "BARRIER ACCESS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/COND",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "COND",
+    "definition_it": "Immobile accessibile solo in presenza di determinate condizioni temporali, eventi o circostanze specifiche.",
+    "definition_en": "Property accessible only in the presence of certain temporal conditions, events or specific circumstances.",
+    "label_it": "ACCESSO CONDIZIONATO",
+    "label_en": "CONDITIONAL ACCESS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/EMERG",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "EMERG",
+    "definition_it": "Immobile con accesso consentito solo per motivi di emergenza, sicurezza o interventi urgenti.",
+    "definition_en": "Property with access allowed only for emergency reasons, security or urgent interventions.",
+    "label_it": "ACCESSO DI EMERGENZA",
+    "label_en": "EMERGENCY ACCESS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/EVENTO",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "EVENTO",
+    "definition_it": "Immobile accessibile solo in occasione di eventi, manifestazioni o iniziative specifiche.",
+    "definition_en": "Property accessible only on the occasion of specific events, demonstrations or initiatives.",
+    "label_it": "ACCESSO PER EVENTI",
+    "label_en": "EVENT ACCESS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/GUIDATO",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "GUIDATO",
+    "definition_it": "Immobile accessibile esclusivamente tramite visite guidate o accompagnamento di personale autorizzato.",
+    "definition_en": "Property accessible exclusively through guided tours or accompaniment by authorized personnel.",
+    "label_it": "ACCESSO GUIDATO",
+    "label_en": "GUIDED ACCESS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/ORARIO",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "ORARIO",
+    "definition_it": "Immobile accessibile solo in specifiche fasce orarie predeterminate e comunicate al pubblico.",
+    "definition_en": "Property accessible only during specific predetermined time slots communicated to the public.",
+    "label_it": "ACCESSO CON ORARIO",
+    "label_en": "SCHEDULED ACCESS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/PRIV",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "PRIV",
+    "definition_it": "Immobile a uso esclusivo, non accessibile al pubblico, riservato a specifici utenti o funzioni.",
+    "definition_en": "Property for exclusive use, not accessible to the public, reserved for specific users or functions.",
+    "label_it": "ACCESSO PRIVATO",
+    "label_en": "PRIVATE ACCESS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/PUBB",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "PUBB",
+    "definition_it": "Immobile liberamente accessibile al pubblico senza necessit\u00e0 di autorizzazioni o limitazioni, nel rispetto degli orari e delle modalit\u00e0 stabilite.",
+    "definition_en": "Property freely accessible to the public without the need for authorization or restrictions, in compliance with established schedules and procedures.",
+    "label_it": "ACCESSO PUBBLICO",
+    "label_en": "PUBLIC ACCESS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/REGOL",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "REGOL",
+    "definition_it": "Immobile accessibile previo rispetto di specifiche condizioni, procedure o requisiti documentali (prenotazione, biglietto, registrazione).",
+    "definition_en": "Property accessible upon compliance with specific conditions, procedures or documentary requirements (booking, ticket, registration).",
+    "label_it": "ACCESSO REGOLAMENTATO",
+    "label_en": "REGULATED ACCESS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/RISV",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "RISV",
+    "definition_it": "Immobile accessibile solo a personale autorizzato o a soggetti specificamente abilitati, con controlli all'ingresso.",
+    "definition_en": "Property accessible only to authorized personnel or specifically qualified persons, with entry controls.",
+    "label_it": "ACCESSO RISERVATO",
+    "label_en": "RESTRICTED ACCESS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccesso/UNIV",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
+    ],
+    "id": "UNIV",
+    "definition_it": "Immobile progettato o adattato per garantire piena accessibilit\u00e0 a tutti, incluse persone con disabilit\u00e0.",
+    "definition_en": "Property designed or adapted to ensure full accessibility to all, including people with disabilities.",
+    "label_it": "ACCESSO UNIVERSALE",
+    "label_en": "UNIVERSAL ACCESS"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23A1",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
+    ],
+    "id": "23A1",
+    "definition_it": "Beni appartenenti al patrimonio dello Stato suscettibili di alienazione o utilizzazione economica secondo le disposizioni del Codice civile e della normativa patrimoniale.",
+    "definition_en": "Assets belonging to the State's patrimony that can be alienated or economically exploited according to the provisions of the Civil Code and patrimonial regulations.",
+    "label_it": "BENI DISPONIBILI",
+    "label_en": "AVAILABLE ASSETS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23A4",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
+    ],
+    "id": "23A4",
+    "definition_it": "Beni patrimoniali costituiti da giacimenti minerari e dalle relative pertinenze fisiche e infrastrutturali, disciplinati dalla normativa mineraria.",
+    "definition_en": "Patrimonial assets consisting of mineral deposits and their related physical and infrastructural appurtenances, governed by mining regulations.",
+    "label_it": "MINIERE E RELATIVE PERTINENZE",
+    "label_en": "MINES AND RELATED APPURTENANCES"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23A5",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
+    ],
+    "id": "23A5",
+    "definition_it": "Beni appartenenti allo Stato e assegnati in uso gratuito o oneroso a pubbliche amministrazioni per finalit\u00e0 istituzionali.",
+    "definition_en": "Assets belonging to the State and assigned for free or paid use to public administrations for institutional purposes.",
+    "label_it": "BENI ASSEGNATI IN USO GOVERNATIVO",
+    "label_en": "ASSETS ASSIGNED FOR GOVERNMENTAL USE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23A6",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
+    ],
+    "id": "23A6",
+    "definition_it": "Beni del patrimonio dello Stato non alienabili, in quanto destinati a un pubblico servizio o a un uso di pubblica utilit\u00e0, pur non appartenendo al demanio necessario.",
+    "definition_en": "Assets of the State's patrimony that cannot be alienated, as they are intended for public service or public utility use, although not belonging to the necessary public domain.",
+    "label_it": "BENI NON DISPONIBILI",
+    "label_en": "UNAVAILABLE ASSETS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23B2",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
+    ],
+    "id": "23B2",
+    "definition_it": "Beni patrimoniali dello Stato gravati da diritti reali (usufrutto, servit\u00f9, enfiteusi, ecc.) costituiti a favore di soggetti diversi dallo Stato.",
+    "definition_en": "State patrimonial assets encumbered by real rights (usufruct, easement, emphyteusis, etc.) established in favor of entities other than the State.",
+    "label_it": "BENI SU CUI GRAVANO DIR. REALI A FAVORE TERZI",
+    "label_en": "ASSETS ENCUMBERED BY REAL RIGHTS IN FAVOR OF THIRD PARTIES"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23C3",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
+    ],
+    "id": "23C3",
+    "definition_it": "Diritti reali attivi spettanti allo Stato su beni di propriet\u00e0 altrui, aventi natura patrimoniale (es. servit\u00f9, enfiteusi attiva, usufrutto).",
+    "definition_en": "Active real rights belonging to the State on assets owned by others, having a patrimonial nature (e.g., easement, active emphyteusis, usufruct).",
+    "label_it": "DIRITTI REALI SU BENI PATRIMONIALI",
+    "label_en": "REAL RIGHTS ON PATRIMONIAL ASSETS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23C3C",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
+    ],
+    "id": "23C3C",
+    "definition_it": "Diritti reali spettanti allo Stato su beni appartenenti a enti comunali.",
+    "definition_en": "Real rights belonging to the State on assets owned by municipal entities.",
+    "label_it": "DIR. REALI SU BENI DI PROPRIETA` DI COMUNI",
+    "label_en": "REAL RIGHTS ON ASSETS OWNED BY MUNICIPALITIES"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23C3P",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
+    ],
+    "id": "23C3P",
+    "definition_it": "Diritti reali spettanti allo Stato su beni appartenenti a enti provinciali.",
+    "definition_en": "Real rights belonging to the State on assets owned by provincial entities.",
+    "label_it": "DIR. REALI SU BENI DI PROPRIETA` DI PROVINCIE",
+    "label_en": "REAL RIGHTS ON ASSETS OWNED BY PROVINCES"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23C3R",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
+    ],
+    "id": "23C3R",
+    "definition_it": "Diritti reali spettanti allo Stato su beni appartenenti a enti regionali.",
+    "definition_en": "Real rights belonging to the State on assets owned by regional entities.",
+    "label_it": "DIR. REALI SU BENI DI PROPRIETA` DI REGIONI",
+    "label_en": "REAL RIGHTS ON ASSETS OWNED BY REGIONS"
+  }
+]
