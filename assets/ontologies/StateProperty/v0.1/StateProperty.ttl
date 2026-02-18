@@ -1,0 +1,168 @@
+@prefix CLV: <https://w3id.org/italia/onto/CLV/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix StateProperty: <https://w3id.org/italia/real-estate/onto/StateProperty/> .
+@prefix TI: <https://w3id.org/italia/onto/TI/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+StateProperty: a owl:Ontology ;
+    owl:versionIRI <urn:absolute:0.1> .
+
+### Object Properties
+
+CLV:hasSpatialCoverage a owl:ObjectProperty .
+
+StateProperty:haCategoriaBeneDelloStato a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha categoria bene dello Stato"@it ;
+    rdfs:domain StateProperty:SchedaDiCatalogazione ;
+    rdfs:range StateProperty:CategoriaBeneDelloStato .
+
+StateProperty:haCategoriaPatrimoniale a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha categoria patrimoniale"@it ;
+    rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
+    rdfs:range StateProperty:TipoCategoriaPatrimonialeImmobile .
+
+StateProperty:haCodiceSEC a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha codice SEC"@it ;
+    rdfs:domain StateProperty:BeneImmobileDelloStato ;
+    rdfs:range StateProperty:CodiceMEFRaccordoSECBeneImmobile .
+
+StateProperty:haDestinazioneDiUso a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha destinazione di uso"@it ;
+    rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
+    rdfs:range StateProperty:TipoDestinazioneDiUsoImmobile .
+
+StateProperty:haSchedaDiCatalogazione a owl:ObjectProperty ;
+    rdfs:label "ha scheda di catalogazione"@it ;
+    rdfs:domain StateProperty:BeneImmobileDelloStato ;
+    rdfs:range StateProperty:SchedaDiCatalogazione .
+
+StateProperty:haStatoDelBeneImmobileDelloStato a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha stato del bene immobile dello Stato"@it ;
+    rdfs:domain StateProperty:BeneImmobileDelloStato ;
+    rdfs:range StateProperty:StatoDelBeneImmobileDelloStato .
+
+StateProperty:haStatoDiAgibilità a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha stato di agibilità"@it ;
+    rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
+    rdfs:range StateProperty:TipoStatoDiAgibilitàImmobile .
+
+StateProperty:haStatoDiOccupazione a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha stato di occupazione"@it ;
+    rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
+    rdfs:range StateProperty:TipoStatoDiOccupazioneImmobile .
+
+StateProperty:haTipoDiAccesso a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo di accesso"@it ;
+    rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
+    rdfs:range StateProperty:TipoDiAccessoImmobile .
+
+StateProperty:riferisceProvincia a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "riferisce provincia"@it ;
+    rdfs:domain StateProperty:SchedaDiCatalogazione ;
+    rdfs:range CLV:Province .
+
+### Datatypes
+
+xsd:boolean a rdfs:Datatype .
+
+xsd:string a rdfs:Datatype .
+
+### Data Properties
+
+StateProperty:avvisoSchedaProvvisoria a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso scheda provvisoria"@it ;
+    rdfs:domain StateProperty:SchedaDiCatalogazione ;
+    rdfs:range xsd:boolean .
+
+StateProperty:codiceSchedaCatalogazione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "codice scheda catalogazione"@it ;
+    rdfs:domain StateProperty:SchedaDiCatalogazione ;
+    rdfs:range xsd:string .
+
+### Classes
+
+CLV:Identifier a owl:Class .
+
+CLV:Province a owl:Class .
+
+StateProperty:Area a owl:Class ;
+    rdfs:label "Area"@it ;
+    owl:disjointWith StateProperty:Fabbricato .
+
+StateProperty:BeneImmobileDelloStato a owl:Class ;
+    rdfs:label "Bene immobile dello Stato"@it ;
+    rdfs:subClassOf StateProperty:Cespite,
+        [ a owl:Restriction ;
+            owl:onProperty CLV:hasSpatialCoverage ;
+            owl:someValuesFrom owl:Thing ] .
+
+StateProperty:CategoriaBeneDelloStato a owl:Class ;
+    rdfs:label "Categoria bene dello Stato"@it .
+
+StateProperty:Cespite a owl:Class ;
+    rdfs:label "Cespite"@it .
+
+StateProperty:CodiceMEFRaccordoSEC a owl:Class ;
+    rdfs:label "Codice MEF raccordo SEC"@it ;
+    rdfs:subClassOf CLV:Identifier .
+
+StateProperty:CodiceMEFRaccordoSECBeneImmobile a owl:Class ;
+    rdfs:label "Codice MEF raccordo SEC bene immobile"@it ;
+    rdfs:subClassOf StateProperty:CodiceMEFRaccordoSEC .
+
+StateProperty:Fabbricato a owl:Class ;
+    rdfs:label "Fabbricato"@it .
+
+StateProperty:SchedaDiCatalogazione a owl:Class ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:onProperty StateProperty:haCategoriaBeneDelloStato ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty StateProperty:riferisceProvincia ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:label "Scheda di catalogazione"@it .
+
+StateProperty:StatoDelBeneImmobileDelloStato a owl:Class ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf StateProperty:haStatoDelBeneImmobileDelloStato ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:label "Stato del Bene immobile dello Stato"@it ;
+    rdfs:subClassOf TI:TimeIndexedEvent .
+
+StateProperty:TipoCategoriaPatrimonialeImmobile a owl:Class ;
+    rdfs:label "Tipo categoria patrimoniale immobile"@it .
+
+StateProperty:TipoDestinazioneDiUsoImmobile a owl:Class ;
+    rdfs:label "Tipo destinazione di uso immobile"@it .
+
+StateProperty:TipoDiAccessoImmobile a owl:Class ;
+    rdfs:label "Tipo di accesso immobile"@it .
+
+StateProperty:TipoStatoDiAgibilitàImmobile a owl:Class ;
+    rdfs:label "Tipo stato di agibilità immobile"@it .
+
+StateProperty:TipoStatoDiOccupazioneImmobile a owl:Class ;
+    rdfs:label "Tipo stato di occupazione immobile"@it .
+
+TI:TimeIndexedEvent a owl:Class .
+
+[] a owl:Class ;
+    rdfs:subClassOf StateProperty:BeneImmobileDelloStato ;
+    owl:unionOf (
+            StateProperty:Area
+            StateProperty:Fabbricato ) .
+
+### Serialized using the ttlser deterministic serializer v1.2.0

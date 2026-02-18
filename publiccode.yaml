@@ -1,0 +1,102 @@
+# publiccode.yaml
+# Metadati del repository secondo lo standard italiano
+# Vedi: https://docs.italia.it/italia/developers-italia/publiccodeyml/
+
+publiccodeYmlVersion: 0.5.0
+
+# Informazioni base
+name: Agenzia del Demanio - Risorse Semantiche NDC
+applicationSuite: National Data Catalog
+url: https://github.com/Agenzia-del-Demanio/NDC
+landingURL: https://github.com/Agenzia-del-Demanio/NDC
+
+# Organizzazione
+organisation:
+  uri: urn:x-italian-pa:agd
+  name: Agenzia del Demanio
+
+# Versioning e date
+isBasedOn: https://github.com/teamdigitale/dati-semantic-cookiecutter
+releaseDate: 2026-02-02
+softwareVersion: 1.0.0
+
+# Piattaforme e categorie
+platforms:
+  - web
+
+categories:
+  - data-collection
+  - data-analytics
+
+# Stato sviluppo
+developmentStatus: stable
+
+# Tipo software
+softwareType: standalone/other
+
+# Descrizione
+description:
+  it:
+    localisedName: Agenzia del Demanio - Risorse Semantiche per NDC
+
+    shortDescription: >
+      Ontologie e vocabolari controllati di Agenzia del Demanio per il
+      Catalogo Nazionale Dati (schema.gov.it)
+
+    longDescription: |
+      Questo repository contiene le risorse semantiche di **Agenzia del Demanio**
+      pubblicate sul National Data Catalog accessibile su https://schema.gov.it.
+
+      Il repository include:
+
+      - **Ontologie**: StateProperty (Bene dello Stato)
+      - **Vocabolari controllati**: categoria-patrimoniale, destinazione-uso, stato-agibilità, tipo-accesso
+      - **Schemi API**: [descrivi gli schemi, se presenti]
+
+      Tutte le risorse sono pubblicate in formato RDF/Turtle per ontologie
+      e vocabolari, e OpenAPI 3.0 per gli schemi API.
+
+      Le risorse sono conformi agli standard del Catalogo Nazionale Dati
+      per lInteroperabilità e supportano lo sviluppo di API semanticamente
+      e sintatticamente interoperabili.
+
+    documentation: https://github.com/Agenzia-del-Demanio/NDC#readme
+
+    features:
+      - Ontologie in formato RDF/Turtle conformi a OWL 2
+      - Vocabolari controllati conformi a SKOS
+      - Schemi API in formato OpenAPI 3.0
+      - Generazione automatica CSV/JSON dai vocabolari
+      - Validazione automatica tramite CI/CD
+      - Conformità linee guida NDC
+
+    awards:
+      - Pubblicato su schema.gov.it
+
+# Informazioni legali
+legal:
+  license: CC-BY-4.0
+  mainCopyrightOwner: Agenzia del Demanio
+
+# Manutenzione
+maintenance:
+  type: internal
+
+  contacts:
+    - name: Marco Trocino
+      email: marco.trocino@agenziademanio.it
+      affiliation: Agenzia del Demanio
+
+# Localizzazione
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it
+
+# Dipendenze (opzionale)
+dependsOn:
+  open:
+    - name: Python
+      versionMin: 3.8
+    - name: RDFLib
+    - name: pandas
