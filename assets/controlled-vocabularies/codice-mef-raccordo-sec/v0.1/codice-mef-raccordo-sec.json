@@ -1,0 +1,508 @@
+[
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BA",
+    "@type": "skos:Concept",
+    "id": "BA",
+    "definition_en": "Non-financial assets that have come into existence as outputs from production processes. Produced assets consist of fixed assets, inventories and valuables, as defined below.",
+    "definition_it": "Attivit\u00e0 non finanziarie ottenute quale prodotto dei processi di produzione. Le attivit\u00e0 prodotte sono costituite da capitale fisso, scorte e oggetti di valore, come specificato in appresso.",
+    "label_it": "ATTIVIT\u00c0 NON FINANZIARIE PRODOTTE",
+    "label_en": "NON-FINANCIAL PRODUCTED ASSETS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAA",
+    "@type": "skos:Concept",
+    "id": "BA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BA",
+    "definition_it": "Attivit\u00e0 prodotte utilizzate ripetutamente o continuamente nei processi di produzione per pi\u00f9 di un anno. Il capitale fisso \u00e8 composto da beni materiali e beni immateriali come specificato in appresso.",
+    "definition_en": "Produced assets that are used repeatedly or continuously in production processes for more than one year. Fixed assets consist of tangible and intangible fixed assets, as defined below.",
+    "label_en": "Fixed assets",
+    "label_it": "Capitale fisso"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAA",
+    "definition_en": "Fixed assets that consist of dwellings; other buildings, permanent structures intended for national defense, immovable property of cultural value, other structures different from dwellings and buildings, rights in rem of enjoyment over property owned by others, plants, equipment and machinery, furniture and furnishings, means of transport, weapons and military armaments, bibliographic material, equipment and clothing, musical instruments, crops and livestock, as well as other produced tangible assets as specified below.",
+    "definition_it": "Capitale fisso costituito da abitazioni, fabbricati non residenziali, opere permanenti destinate alla difesa nazionale, beni immobili di valore culturale, altre opere diverse delle abitazioni e dai fabbricati, diritti reali di godimento su beni altrui, impianti attrezzature e macchinari, mobili e arredi, mezzi di trasporto, armi ed armamenti militari, materiale bibliografico, equipaggiamenti e vestiari, strumenti musicali, coltivazioni ed allevamenti nonch\u00e9 altri beni materiali prodotti come di seguito specificati.",
+    "label_en": "TANGIBLE FIXED ASSETS",
+    "label_it": "BENI MATERIALI PRODOTTI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAAA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAA",
+    "definition_it": "Fabbricati utilizzati interamente o principalmente come abitazioni, comprese le costruzioni annesse, come i garage, e tutti gli impianti permanenti usualmente installati nelle abitazioni. Sono incluse altres\u00ec le case galleggianti, le chiatte, le case viaggianti e i caravan utilizzati quali residenze principali delle famiglie, come pure i monumenti storici se destinati principalmente ad abitazioni. Sono inclusi anche i costi d\u00e8i lavori di sgombero del cantiere e di preparazione del terreno.\nEsempi: edifici residenziali come i fabbricati a uno o due alloggi e gli altri edifici residenziali destinati ad essere occupati stabilmente.\nLe abitazioni non completate sono incluse nella misura in cui si considera che l'utilizzatore finale ne \u00e8 divenuto proprietario o perch\u00e9 sono state costruite per uso proprio o perch\u00e9 \u00e8 stato stipulato un contratto di compravendita.",
+    "definition_en": "Buildings that are used entirely or primarily as residences, including any associated structures, such as garages, and all permanent fixtures customarily installed in residences. Houseboats, barges, mobile homes and caravans used as principal residences of households are also included, as are historic monuments identified primarily as dwellings. Costs of site clearance and preparation are also included.\nExamples include residential buildings, such as one- and two-dwelling buildings and other residential buildings intended for non-transient occupancy.\nUncompleted dwellings are included to the extent that the ultimate user is deemed to have taken ownership, either because the construction is on own account or as evidenced by the existence of a contract of sale/purchase.",
+    "label_en": "Dwellings",
+    "label_it": "Abitazioni"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAAAAA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA AA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAAA",
+    "definition_it": "Edifici residenziali situati in contesti urbani o civili, destinati a nuclei familiari, comprensivi di eventuali alloggi di servizio e strutture accessorie come garage e impianti permanenti.",
+    "definition_en": "Residential buildings located in urban or civil contexts, intended for family occupancy, including any service housing and ancillary structures such as garages and permanent installations.",
+    "label_en": "RESIDENTIAL BUILDINGS (INCLUDING SERVICE HOUSING)",
+    "label_it": "FABBRICATI CIVILI USO ABITATIVO (INCLUSI GLI ALLOGGI DI SERVIZIO)"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAAABA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA AA BA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAAA",
+    "definition_it": "Abitazioni situate in aree rurali o agricole, comprese le costruzioni annesse necessarie per la vita quotidiana, destinate a essere occupate stabilmente dalle famiglie.",
+    "definition_en": "Dwellings situated in rural or agricultural areas, including annexed constructions necessary for daily life, intended for stable family occupancy.",
+    "label_en": "RURAL RESIDENTIAL BUILDINGS",
+    "label_it": "FABBRICATI RURALI USO ABITATIVO"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAAAEA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA AA EA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAAA",
+    "definition_it": "Abitazioni pubbliche o sociali gestite dall\u2019Istituto Autonomo Case Popolari, destinate a uso residenziale stabile di famiglie con particolari requisiti sociali o economici.",
+    "definition_en": "Public or social housing managed by the Autonomous Institute for Public Housing (I.A.C.P.), intended for stable residential use by families with specific social or economic requirements.",
+    "label_en": "BUILDINGS MANAGED BY I.A.C.P.",
+    "label_it": "FABBRICATI GESTITI DALLO I.A.C.P."
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAAAFA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA AA FA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAAA",
+    "definition_it": "Abitazioni di propriet\u00e0 pubblica o sociale gestite da comuni, province o altre autorit\u00e0 locali, comprese le strutture accessorie e gli impianti permanenti, destinate all\u2019uso residenziale della comunit\u00e0 o di specifici nuclei familiari.",
+    "definition_en": "Public or social housing owned by local authorities (municipalities, provinces, or other territorial entities), including ancillary structures and permanent installations, intended for residential use by the community or specific family units.",
+    "label_en": "BUILDINGS MANAGED BY LOCAL AUTHORITIES",
+    "label_it": "FABBRICATI GESTITI DAGLI ENTI TERRITORIALI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA BA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAA",
+    "definition_it": "Fabbricati diversi dalle abitazioni, compresi gli impianti e le attrezzature che costituiscono parte integrante delle costruzioni e compresi i costi dei lavori di sgombero dei cantieri e di preparazione del terreno. Sono incluse opere destinate al culto, chiese, certose, abbazie escluse fondo culto. Inoltre arsenali e stabilimenti sia dell'area operativa che dell'area tecnico-industriale della Difesa. Prefabbricati situati in aree militari con destinazione di alloggi temporanei e/o di uffici, officine depositi di materiali. Caserme sino a quando non sono transitate in carico alle Agenzie del Demanio. Gli altri fabbricati non ancora completati sono inclusi nella misura in cui si considera che l'utilizzatore finale ne \u00e8 divenuto proprietario o perch\u00e9 \u00e8 stato stipulato un contratto di appalto o perch\u00e9 \u00e8 stato stipulato un contratto di compravendita.",
+    "definition_en": "Buildings other than dwellings, including fixtures, facilities and equipment that are integral parts of the structures and costs of site clearance and preparation. Included are structures intended for worship\u2014churches, charterhouses, abbeys\u2014excluding worship-related land holdings. Also included are arsenals and facilities belonging to both the operational area and the technical-industrial area of the Defence sector. Prefabricated structures located in military areas and used as temporary housing and/or offices, workshops, and material depots. Barracks, until they are transferred to the State Property Agencies. Other buildings not yet completed are included to the extent that the final user is considered to have become the owner, either because a procurement contract has been signed or because a purchase agreement has been concluded.",
+    "label_en": "Non-residential buildings",
+    "label_it": "Fabbricati non residenziali"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABAAA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA BA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABA",
+    "definition_it": "Edifici destinati a uffici pubblici, amministrazioni statali, e caserme fino al momento del trasferimento alla gestione delle Agenzie del Demanio, comprensivi di impianti e strutture permanenti.",
+    "definition_en": "Buildings used as public offices, state administrations, and barracks until transferred to the management of the State Property Agencies, including permanent installations and equipment.",
+    "label_en": "CIVIL BUILDINGS FOR INSTITUTIONAL PURPOSES (GOVERNMENT USE AND BARRACKS)",
+    "label_it": "FABBRICATI CIVILI ADIBITI A FINI ISTITUZIONALI (USO GOVERNATIVO E CASERME)"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABABA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA BA BA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABA",
+    "definition_it": "Edifici adibiti ad attivit\u00e0 commerciali, come negozi, centri servizi e uffici privati, comprensivi delle attrezzature permanenti necessarie per il funzionamento.",
+    "definition_en": "Buildings used for commercial activities, such as shops, service centers, and private offices, including permanent equipment necessary for operation.",
+    "label_en": "COMMERCIAL BUILDINGS",
+    "label_it": "FABBRICATI COMMERCIALI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABACA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA BA CA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABA",
+    "definition_it": "Costruzioni in aree agricole o rurali utilizzate per attivit\u00e0 produttive diverse dall\u2019abitazione, come stalle, magazzini agricoli e depositi di materiali.",
+    "definition_en": "Structures in agricultural or rural areas used for productive activities other than housing, such as stables, agricultural warehouses, and material storage facilities.",
+    "label_en": "RURAL BUILDINGS",
+    "label_it": "FABBRICATI RURALI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABADA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA BA DA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABA",
+    "definition_it": "Stabilimenti industriali, officine, depositi di materiali e prefabbricati, inclusi quelli situati in aree militari destinati a uffici o alloggi temporanei.",
+    "definition_en": "Industrial plants, workshops, material depots, and prefabricated structures, including those located in military areas intended for offices or temporary housing.",
+    "label_en": "INDUSTRIAL BUILDINGS AND LIGHT CONSTRUCTIONS",
+    "label_it": "FABBRICATI INDUSTRIALI E COSTRUZIONI LEGGERE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABAEA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA BA EA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABA",
+    "definition_it": "Edifici religiosi come chiese, certose e abbazie (escluso il fondo culto), comprese le strutture annesse e gli impianti permanenti.",
+    "definition_en": "Religious buildings such as churches, charterhouses, and abbeys (excluding worship-related land), including annexed structures and permanent installations.",
+    "label_en": "RELIGIOUS BUILDINGS",
+    "label_it": "OPERE DESTINATE AL CULTO"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABAHA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA BA HA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAABA",
+    "definition_it": "Altri fabbricati non completati o con destinazioni particolari non ricomprese nelle categorie precedenti, inclusi quelli in costruzione o acquisiti tramite appalto o contratto di compravendita.",
+    "definition_en": "Other incomplete buildings or buildings with specific purposes not included in the previous categories, including those under construction or acquired through procurement or purchase agreements.",
+    "label_en": "OTHER",
+    "label_it": "ALTRO"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAACA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA CA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAA",
+    "definition_it": "Fabbricati che presentano interesse artistico, storico, archeologico, paleontologico o che, a causa del loro riferimento con la storia politica, militare, della letteratura, dell'arte e della cultura in genere, siano stati riconosciuti di interesse particolarmente importante, nonch\u00e9 le opere di restauro (da capitalizzarsi) volte a mantenerne l'integrit\u00e0 materiale e ad assicurare la conservazione e la protezione dei loro valori culturali.",
+    "definition_en": "Buildings of artistic, historical, archaeological or paleontological interest, or which, due to their association with political or military history, literature, art, or culture in general, have been recognized as being of particularly significant interest, as well as restoration works (to be capitalized) aimed at maintaining their material integrity and ensuring the preservation and protection of their cultural value.",
+    "label_en": "Cultural real estate assets",
+    "label_it": "Beni immobili di valore culturale"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAACABA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA CA BA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAACA",
+    "definition_it": "Fabbricati riconosciuti di particolare interesse per il loro valore artistico, storico, letterario o culturale, comprendendo anche opere di restauro finalizzate a mantenere l\u2019integrit\u00e0 materiale e la conservazione dei loro valori culturali.",
+    "definition_en": "Buildings recognized as being of particular interest for their artistic, historical, literary, or cultural value, including restoration works aimed at maintaining their material integrity and ensuring the preservation and protection of their cultural significance.",
+    "label_en": "ARTISTIC ASSETS",
+    "label_it": "BENI ARTISTICI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAACACA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA CA CA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAACA",
+    "definition_it": "Fabbricati o strutture con rilevanza archeologica o paleontologica, inclusi siti che documentano periodi storici e culture passate, comprendendo interventi di restauro per la conservazione e protezione dei beni.",
+    "definition_en": "Buildings or structures of archaeological or paleontological relevance, including sites documenting historical periods and past cultures, with restoration interventions intended to preserve and protect the assets.",
+    "label_en": "ARCHAEOLOGICAL ASSETS",
+    "label_it": "BENI ARCHEOLOGICI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAEA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA EA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAA",
+    "definition_it": "Opere diverse dai fabbricati, compresi i costi di costruzione di strade, di posa di fognature e dei lavori di sgombero del cantiere e di preparazione del terreno diversi da quelli per fabbricati.\nSi comprendono in particolare:\nVie di comunicazione: strade, autostrade, idrovie, valichi, ponti, funivie, ecc.;\nStrutture e infrastrutture idrauliche: ovvero beni volti alla regolamentazione dei corsi d'acqua ed al suo corretto deflusso (dighe, argini, sistemazione corsi d'acqua, canali di irrigazione, acquedotti, fognature, ecc.);\nStrade ferrate e relativi materiali di esercizio: infrastrutture, gestite direttamente o affidate a terzi in concessione governativa, di diversi punti mediante sistemi ferrovari: ferrovie, binari, materiale rotabile, ecc.;\nImpianti sportivi: impianti adibiti ad attivit\u00e0 sportive (campi di calcio, stadi, campi di tennis, palestre ginnastiche, piscine pubbliche ed altri impianti di cui lo Stato \u00e8 proprietario);\nA parte si comprendono infine le opere in corso di costruzione, che sono incluse qualora si considera che l'utilizzatore finale ne \u00e8 diventato proprietario o perch\u00e9 \u00e8 stato stipulato un contratto di appalto, le opere di manutenzione straordinaria e le opere per la sistemazione del suolo (ovvero interventi per dare un opportuno assetto al territorio, come bonifiche, recinzioni aree protette, rimboschimenti, ecc.).",
+    "definition_en": "Structures other than buildings, including the cost of the streets, sewers and site clearance and preparation other than for buildings.\nThese include in particular:\nTransportation routes: roads, motorways, waterways, passes, bridges, cableways, etc.;\nHydraulic structures and infrastructures: assets intended for regulating watercourses and ensuring their proper flow (dams, embankments, river-training works, irrigation canals, aqueducts, sewer systems, etc.);\nRailways and related operating equipment: infrastructures\u2014managed directly or assigned to third parties under government concession\u2014connecting various points by means of rail systems: railways, tracks, rolling stock, etc.;\nSports facilities: facilities used for sporting activities (football fields, stadiums, tennis courts, gymnasiums, public swimming pools, and other facilities owned by the State);\nAlso included, separately, are structures under construction, which are accounted for when the final user is considered to have become the owner, either because a procurement contract has been concluded, as well as extraordinary maintenance works and land improvement works (i.e., interventions aimed at giving the territory an appropriate structure, such as land reclamation, protected area fencing, reforestation, etc.).",
+    "label_en": "Other structures",
+    "label_it": "Altre opere"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAEAEA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA EA EA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAEA",
+    "definition_it": "Strutture destinate ad attivit\u00e0 sportive, comprese palestre, stadi, campi da gioco, piscine pubbliche e altri impianti di propriet\u00e0 dello Stato, inclusi gli impianti permanenti necessari al loro funzionamento e le opere accessorie.",
+    "definition_en": "Structures intended for sporting activities, including gyms, stadiums, playing fields, public swimming pools, and other state-owned facilities, including permanent installations necessary for their operation and ancillary works.",
+    "label_en": "SPORT FACILITIES",
+    "label_it": "IMPIANTI SPORTIVI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAFA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA FA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAA",
+    "definition_it": "Diritti che attribuiscono al titolare (Stato) una signoria limitata su beni di terzi.",
+    "definition_en": "Rights that grant the holder (the State) a limited control or authority over property owned by third parties.",
+    "label_en": "Rights of enjoyment over property owned by others",
+    "label_it": "Diritti reali di godimento sui beni altrui"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAFAAA",
+    "@type": "skos:Concept",
+    "id": "BA AA AA FA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAAAAFA",
+    "definition_it": "Diritti che attribuiscono al titolare (Stato) una signoria limitata su beni di terzi.",
+    "definition_en": "Rights that grant the holder (the State) a limited control or authority over property owned by third parties.",
+    "label_en": "RIGHTS OF ENJOYMENT OVER PROPERTY OWNED BY OTHERS",
+    "label_it": "DIRITTI REALI DI GODIMENTO SU BENI ALTRUI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAABA",
+    "@type": "skos:Concept",
+    "id": "BA AA BA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAA",
+    "definition_en": "Fixed assets that consist of: mineral exploration, computer software, entertainment, literary or artistic originals and other intangible fixed assets, as defined below, intended to be used for more than one year.",
+    "definition_it": "Capitale fisso costituito da: prospezioni minerarie, software, originali di opere artistiche, letterarie o di intrattenimento o altri beni immateriali prodotti, come specificato in appresso, che si intende utilizzare per pi\u00f9 di un anno.",
+    "label_en": "INTANGIBLE FIXED ASSETS",
+    "label_it": "BENI IMMATERIALI PRODOTTI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAABAAA",
+    "@type": "skos:Concept",
+    "id": "BA AA BA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAABA",
+    "definition_it": "Diritti sui beni per ricavare il maggior utile possibile.",
+    "definition_en": "Rights over assets aimed at deriving the maximum possible benefit.",
+    "label_en": "Exploitation rights",
+    "label_it": "Diritti di sfruttamento"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAABAAAAA",
+    "@type": "skos:Concept",
+    "id": "BA AA BA AA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BAAABAAA",
+    "definition_it": "Importo delle spese per la ricerca di petrolio, di gas naturale e di giacimenti non petroliferi. Tali spese comprendono i costi precedenti all'ottenimento delle autorizzazioni, i costi per il rilascio delle autorizzazioni e i costi di acquisizione, i costi di valutazione e i costi delle effettive trivellazioni esplorative e di perforazione, come pure i costi di rilievi aerei o altre indagini, i costi di trasporto, ecc., sostenuti per rendere possibile l'esecuzione delle prospezioni.",
+    "definition_en": "The value of expenditures on exploration for petroleum and natural gas and for non-petroleum deposits. These expenditures include prelicence costs, licence and acquisition costs, appraisal costs and the costs of actual test drilling and boring, as well as the costs of aerial and other surveys, transportation costs, etc., incurred to make it possible to carry out the tests.",
+    "label_en": "MINERAL EXPLORATION",
+    "label_it": "PROSPEZIONI MINERARIE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CA",
+    "@type": "skos:Concept",
+    "id": "CA",
+    "definition_en": "Non-financial assets that come into existence other than through processes of production. Non-produced assets consist of tangible assets and intangible assets, as defined below. ",
+    "definition_it": "Attivit\u00e0 non finanziarie che non sono ottenute quale prodotti di processi di produzione. Le attivit\u00e0 non prodotte sono costituite da beni materiali e beni immateriali, come specificato in appresso.",
+    "label_it": "ATTIVIT\u00c0 NON FINANZIARIE\nNON PRODOTTE",
+    "label_en": "NON-FINANCIAL NON-PRODUCED ASSETS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAA",
+    "@type": "skos:Concept",
+    "id": "CA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CA",
+    "definition_it": "Attivit\u00e0 non prodotte presenti in natura sulle quali possono essere esercitati diritti di propriet\u00e0, incluso il trasferimento di questi. Sono esclusi i beni legati all'ambiente sui quali non sono o non possono essere esercitati diritti di propriet\u00e0. I beni materiali non prodotti sono costituiti da beni del demanio naturale, terreni, giacimenti, risorse biologiche non coltivate.",
+    "definition_en": "Non-produced assets that occur in nature and over which ownership may be enforced and transferred. Environmental assets over which ownership rights have not, or cannot, be enforced are excluded. Tangible non-produced assets consist of natural state-owned assets, land, subsoil assets, non-cultivated biological resources.",
+    "label_en": "Tangible non-produced assets",
+    "label_it": "Beni materiali non prodotti"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAAAA",
+    "@type": "skos:Concept",
+    "id": "CA AA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAA",
+    "definition_en": "State-owned assets consisting of maritime, water, and forest public property.",
+    "definition_it": "Beni di propriet\u00e0 dello Stato costituiti dal demanio marittimo, dal demanio idrico e forestale.",
+    "label_en": "NATURAL STATE-OWNED ASSETS",
+    "label_it": "BENI DEL DEMANIO NATURALE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAAAAAA",
+    "@type": "skos:Concept",
+    "id": "CA AA AA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAAAA",
+    "definition_it": "Beni di propriet\u00e0 dello Stato costituiti dal demanio marittimo, dal demanio idrico e forestale.",
+    "definition_en": "State-owned assets consisting of maritime, water, and forest public property.",
+    "label_en": "Natural State-Owned Assets",
+    "label_it": "Beni del demanio naturale"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAAAAAAAA",
+    "@type": "skos:Concept",
+    "id": "CA AA AA AA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAAAAAA",
+    "definition_it": "Lido del mare, spiaggia, porti, rade, lagune, foci dei fiumi, bacini d'acqua, canali utilizzabili per uso pubblico marittimo, pertinenze del demanio marittimo.",
+    "definition_en": "Seashores, beaches, harbours, roadsteads, lagoons, river mouths, water basins, canals usable for public maritime purposes, and appurtenances of the maritime public domain.",
+    "label_en": "Maritime public domain",
+    "label_it": "Demanio marittimo"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAAAAAABA",
+    "@type": "skos:Concept",
+    "id": "CA AA AA AA BA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAAAAAA",
+    "definition_it": "Fiumi, laghi, torrenti, rivi, fossati, colatori, acque sotterranee, acque sorgenti, ghiacciai, porti ed approdi destinati alla navigazione interna, acquedotti e canali demaniali.",
+    "definition_en": "Rivers, lakes, streams, creeks, ditches, drainage channels, groundwater, spring waters, glaciers, ports and landings intended for inland navigation, and public aqueducts and canals.",
+    "label_en": "Water public domain",
+    "label_it": "Demanio idrico"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAAAAAACA",
+    "@type": "skos:Concept",
+    "id": "CA AA AA AA CA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAAAAAA",
+    "definition_it": "Patrimonio boschivo nazionale.",
+    "definition_en": "National forest heritage.",
+    "label_en": "Forests",
+    "label_it": "Foreste"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABA",
+    "@type": "skos:Concept",
+    "id": "CA AA BA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAA",
+    "definition_en": "The ground, including the soil covering and any associated surface waters, over which ownership rights are enforced. Excluded are any buildings or other structures situated on it or running through it; cultivated crops, trees and animals. Land consists of building sites, land underlying buildings and structures, land under cultivation, recreational land and associated surface water, archaeological areas and protected land, and other land and associated surface water, as defined below.",
+    "definition_it": "Terreni, compresa la copertura del suolo, nonch\u00e9 le relative acque di superficie, su cui sono esercitati i diritti di propriet\u00e0. Sono esclusi i fabbricati o le altre opere costruite su di essi o che li attraversano, le coltivazioni, gli alberi e gli animali. I terreni sono costituiti da aree edificabili, terreni sottostanti a fabbricati e ad altre opere, terreni coltivati, parchi con relative acque di superficie, aree archeologiche e terreni sottoposti a tutela, ed altri terreni con relative acque di superficie, come specificato in appresso.",
+    "label_en": "LAND",
+    "label_it": "TERRENI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAA",
+    "@type": "skos:Concept",
+    "id": "CA AA BA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABA",
+    "definition_it": "Terreni, compresa la copertura del suolo, nonch\u00e9 le relative acque di superficie, su cui sono esercitati i diritti di propriet\u00e0. Sono esclusi i fabbricati o le altre opere costruite su di essi o che li attraversano, le coltivazioni, gli alberi e gli animali. I terreni sono costituiti da aree edificabili, terreni sottostanti a fabbricati e ad altre opere, terreni coltivati, parchi con relative acque di superficie, aree archeologiche e terreni sottoposti a tutela, ed altri terreni con relative acque di superficie, come specificato in appresso.",
+    "definition_en": "The ground, including the soil covering and any associated surface waters, over which ownership rights are enforced. Excluded are any buildings or other structures situated on it or running through it; cultivated crops, trees and animals. Land consists of building sites, land underlying buildings and structures, land under cultivation, recreational land and associated surface water, archaeological areas and protected land, and other land and associated surface water, as defined below.",
+    "label_en": "Land",
+    "label_it": "Terreni"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAAAA",
+    "@type": "skos:Concept",
+    "id": "CA AA BA AA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAA",
+    "definition_it": "Aree per le quali sono prefigurati piani urbanistici.",
+    "definition_en": "Areas for which urban development plans have been envisaged.",
+    "label_en": "BUILDING AREAS",
+    "label_it": "AREE EDIFICABILI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAABA",
+    "@type": "skos:Concept",
+    "id": "CA AA BA AA BA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAA",
+    "definition_it": "Aree per le quali esistono determinati vincoli urbanistici.",
+    "definition_en": "Areas for which specific urban planning restrictions have been established.",
+    "label_en": "AREAS SUBJECT TO URBAN PLANNING RESTRICTIONS PRELIMINARY TO EXPROPRIATION",
+    "label_it": "AREE ASSOGGETTATE A VINCOLI URBANISTICI PREORDINATI ALL'ESPROPRIO"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAACA",
+    "@type": "skos:Concept",
+    "id": "CA AA BA AA CA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAA",
+    "definition_it": "Terreni su cui sono costruiti fabbricati non residenziali, abitazioni ed altre opere o nei quali poggiano le fondazioni di questi, compresi i cortili ed i giardini considerati parte integrante di abitazioni rurali e non rurali e strade di accesso a fattorie.",
+    "definition_en": "Land on which dwellings, non-residential buildings and structures are constructed or into which their foundations are dug, including yards and gardens deemed an integral part of farm and non-farm dwellings and access roads to farms.",
+    "label_en": "LAND UNDERLYING BUILDINGS AND STRUCTURES",
+    "label_it": "TERRENI SOTTOSTANTI A FABBRICATI ED ALTRE OPERE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAADA",
+    "@type": "skos:Concept",
+    "id": "CA AA BA AA DA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAA",
+    "definition_it": "Terreni sui quali viene svolta, a fini commerciali o di sussistenza, una attivit\u00e0 di produzione agricola o orticola, compresi, in linea di principio, i terreni a frutteto, a vigneto e ad altre coltivazioni.",
+    "definition_en": "Land on which agricultural or horticultural production is carried on for commercial or subsistence purposes, including, in principle, land under plantations, orchards and vineyards.",
+    "label_en": "LAND UNDER CULTIVATION",
+    "label_it": "TERRENI COLTIVATI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAAEA",
+    "@type": "skos:Concept",
+    "id": "CA AA BA AA EA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAA",
+    "definition_it": "Parchi, giardini per uso pubblico.",
+    "definition_en": "Parks and gardens for public use.",
+    "label_en": "RECREATIONAL LAND AND ASSOCIATED SURFACE WATER ",
+    "label_it": "PARCHI CON RELATIVE ACQUE DI SUPERFICIE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAAFA",
+    "@type": "skos:Concept",
+    "id": "CA AA BA AA FA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAA",
+    "definition_it": "Aree che rivestono interesse archeologico, storico, artistico, ambientale, ivi compresi i tratturi, le centuriazioni, le sostituzioni, le gallerie e simili.",
+    "definition_en": "Areas of archaeological, historical, artistic, or environmental interest, including ancient drove roads, Roman land divisions, underground structures, tunnels, and similar features.",
+    "label_en": "ARCHAEOLOGICAL AREAS AND PROTECTED LAND",
+    "label_it": "AREE ARCHEOLOGICHE E TERRENI SOTTOPOSTI A TUTELA"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAAGA",
+    "@type": "skos:Concept",
+    "id": "CA AA BA AA GA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAABAAA",
+    "definition_it": "Terreni non classificati altrove, compresi i giardini e le particelle di terreno non coltivate a scopo di sussistenza o commerciali, le superfici pubbliche adibite a pascolo, i terreni circondanti le abitazioni per la parte che eccede i cortili ed i giardini considerati parte integrante delle abitazioni rurali e non rurali e le connesse acque di superficie.",
+    "definition_en": "Land not elsewhere classified, including gardens and plots not cultivated for subsistence or commercial purposes, communal grazing land, land surrounding dwellings in excess of those yards and gardens deemed an integral part of farm and non-farm dwellings and associated surface water.",
+    "label_en": "OTHER LAND AND ASSOCIATED SURFACE WATER",
+    "label_it": "ALTRI TERRENI CON RELATIVE ACQUE DI SUPERFICIE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAACA",
+    "@type": "skos:Concept",
+    "id": "CA AA CA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAA",
+    "definition_en": "Proven reserves of mineral deposits located on or below the earth's surface that are economically exploitable, given current technology and relative prices. Subsoil assets consist of coal, oil and natural gas reserves, metallic mineral reserves and non-metallic mineral reserves, as defined below.",
+    "definition_it": "Riserve comprovate di minerali, poste sulla superficie terrestre o al di sotto di essa, economicamente sfruttabili, considerata la tecnologia attuale ed i prezzi relativi. I giacimenti comprendono le riserve di carbone, di petrolio e di gas naturale, le riserve di minerali metalliferi e le riserve di minerali non metalliferi, come in appresso specificato.",
+    "label_en": "SUBSOIL ASSETS",
+    "label_it": "GIACIMENTI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAACAAA",
+    "@type": "skos:Concept",
+    "id": "CA AA CA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAACA",
+    "definition_it": "Riserve comprovate di minerali, poste sulla superficie terrestre o al di sotto di essa, economicamente sfruttabili, considerata la tecnologia attuale ed i prezzi relativi. I giacimenti comprendono le riserve di carbone, di petrolio e di gas naturale, le riserve di minerali metalliferi e le riserve di minerali non metalliferi, come in appresso specificato.",
+    "definition_en": "Proven reserves of mineral deposits located on or below the earth's surface that are economically exploitable, given current technology and relative prices. Subsoil assets consist of coal, oil and natural gas reserves, metallic mineral reserves and non-metallic mineral reserves, as defined below.",
+    "label_en": "Subsoil Assets",
+    "label_it": "Giacimenti"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAACAAAAA",
+    "@type": "skos:Concept",
+    "id": "CA AA CA AA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAACAAA",
+    "definition_it": "Depositi di antracite, di carbone bituminoso e di lignite; campi petroliferi e riserve di gas naturale.",
+    "definition_en": "Anthracite, bituminous and brown coal deposits; petroleum and natural gas reserves and fields.",
+    "label_en": "COAL, OIL AND NATURAL GAS RESERVES ",
+    "label_it": "RISERVE DI CARBONE, DI PETROLIO E DI GAS NATURALE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAACAAABA",
+    "@type": "skos:Concept",
+    "id": "CA AA CA AA BA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAACAAA",
+    "definition_it": "Depositi di minerali di metalli ferrosi e non ferrosi e di metalli preziosi, che non siano siti paleontologici.",
+    "definition_en": "Ferrous, non-ferrous and precious metal ore deposits, excluding paleontological sites.",
+    "label_en": "METALLIC MINERAL RESERVES",
+    "label_it": "RISERVE DI MINERALI METALLIFERI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAACAAACA",
+    "@type": "skos:Concept",
+    "id": "CA AA CA AA CA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAACAAA",
+    "definition_it": "Cave di pietra, di argilla e di sabbia; depositi di minerali, di quarzo, di gesso, di altri minerali non metalliferi diversi dal carbone e dal petrolio, che non siano siti paleontologici.",
+    "definition_en": "Stone quarries and clay and sand pits; mineral deposits; deposits of quartz, gypsum,other non-metallic minerals other than coal and petroleum, excluding paleontological sites.",
+    "label_en": "NON-METALLIC MINERAL RESERVES",
+    "label_it": "RISERVE DI MINERALI NON METALLIFERI"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAADA",
+    "@type": "skos:Concept",
+    "id": "CA AA DA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAA",
+    "definition_en": "Animals and plants that yield products over which ownership rights are enforced but for which natural growth and/or regeneration is not under direct control, responsibility and management (e.g., protected parks, fisheries within the territory of the country, aquaculture)",
+    "definition_it": "Animali e piante che forniscono prodotti utilizzabili, sui quali sono esercitati diritti di propriet\u00e0, ma la cui crescita naturale e/o la cui rigenerazione non sono gestite o controllate direttamente (es. parchi protetti, zone di pesca nel territorio interno del Paese, acquacoltura).",
+    "label_en": "NON-CULTIVATED BIOLOGICAL RESOURCES ",
+    "label_it": "RISORSE BIOLOGICHE NON COLTIVATE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAADAAA",
+    "@type": "skos:Concept",
+    "id": "CA AA DA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAADA",
+    "definition_it": "Animali e piante che forniscono prodotti utilizzabili, sui quali sono esercitati diritti di propriet\u00e0, ma la cui crescita naturale e/o la cui rigenerazione non sono gestite o controllate direttamente (es. parchi protetti, zone di pesca nel territorio interno del Paese, acquacoltura).",
+    "definition_en": "Animals and plants that yield products over which ownership rights are enforced but for which natural growth and/or regeneration is not under direct control, responsibility and management (e.g., protected parks, fisheries within the territory of the country, aquaculture)",
+    "label_en": "Non-Cultivated Biological Resources ",
+    "label_it": "Risorse biologiche non coltivate"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAADAAAAA",
+    "@type": "skos:Concept",
+    "id": "CA AA DA AA AA",
+    "parent": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CAAADAAA",
+    "definition_it": "Animali e piante che forniscono prodotti utilizzabili, sui quali sono esercitati diritti di propriet\u00e0, ma la cui crescita naturale e/o la cui rigenerazione non sono gestite o controllate direttamente (es. parchi protetti, zone di pesca nel territorio interno del Paese, acquacoltura).",
+    "definition_en": "Animals and plants that yield products over which ownership rights are enforced but for which natural growth and/or regeneration is not under direct control, responsibility and management (e.g., protected parks, fisheries within the territory of the country, aquaculture)",
+    "label_en": "NON-CULTIVATED BIOLOGICAL RESOURCES ",
+    "label_it": "RISORSE BIOLOGICHE NON COLTIVATE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/NA",
+    "@type": "skos:Concept",
+    "id": "NA",
+    "definition_en": "Used when the category or parameter considered cannot be associated with the asset, as it is not relevant to its nature or function.",
+    "definition_it": "Voce utilizzata quando la categoria o il parametro considerato non pu\u00f2 essere associato al bene in esame, in quanto non pertinente alla sua natura o alla sua funzione.",
+    "label_it": "NON APPLICABILE",
+    "label_en": "NOT APPLICABLE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/ND",
+    "@type": "skos:Concept",
+    "id": "ND",
+    "definition_en": "Used when an asset does not present sufficient elements or characteristics to be assigned to a specific category within the classification system.",
+    "definition_it": "Voce utilizzata quando il bene non presenta elementi o caratteristiche sufficienti per essere classificato in una categoria specifica all\u2019interno del sistema di classificazione.",
+    "label_it": "NON DEFINITO",
+    "label_en": "UNDEFINED"
+  }
+]
