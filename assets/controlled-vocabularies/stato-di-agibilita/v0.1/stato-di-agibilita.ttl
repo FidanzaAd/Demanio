@@ -20,46 +20,6 @@
     vcard:fn "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog" ;
     vcard:hasEmail <mailto:ndc-segr-tec@istat.it> .
 
-<https://w3id.org/italia/data/distribution/stato-di-agibilita-CSV> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/stato-di-agibilita/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/stato-di-agibilita/latest/stato-di-agibilita.csv> ;
-    dct:description "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
-        "This is the distribution in CSV of the Linked Open Dataset of the Controlled Vocabulary for Habitability Status"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "CSV distribution of the Controlled Vocabulary for Habitability Status"@en,
-        "Distribuzione CSV del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it .
-
-<https://w3id.org/italia/data/distribution/stato-di-agibilita-JSON-LD> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/stato-di-agibilita/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/stato-di-agibilita/latest/stato-di-agibilita.json> ;
-    dct:description "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
-        "This is the distribution in JSON-LD of the Linked Open Dataset of the Controlled Vocabulary for Habitability Status"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "Distribuzione JSON-LD del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
-        "JSON-LD distribution of the Controlled Vocabulary for Habitability Status"@en .
-
-<https://w3id.org/italia/data/distribution/stato-di-agibilita-RDF-Turtle> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/stato-di-agibilita/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/stato-di-agibilita/latest/stato-di-agibilita.ttl> ;
-    dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
-        "This is the distribution in RDF/Turtle of the Linked Open Dataset of the Controlled Vocabulary for Habitability Status"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "Distribuzione RDF/Turtle del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
-        "RDF/Turtle distribution of the Controlled Vocabulary for Habitability Status"@en .
-
-<https://w3id.org/italia/data/distribution/stato-di-agibilita-XSLX> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/stato-di-agibilita/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/stato-di-agibilita/latest/stato-di-agibilita.xlsx> ;
-    dct:description "Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
-        "This is the distribution in XLSX of the Linked Open Dataset of the Controlled Vocabulary for Habitability Status"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "Distribuzione XLSX del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
-        "XLSX distribution of the Controlled Vocabulary for Habitability Status"@en .
-
 <https://w3id.org/italia/data/public-organization/agd> a dcatapit:Agent,
         foaf:Agent ;
     dct:identifier "agd" ;
@@ -97,10 +57,10 @@
     rdfs:isDefinedBy <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/stato-di-agibilita> ;
     adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
     dcat:contactPoint <https://w3id.org/italia/data/contact-point/ISTAT-NDC> ;
-    dcat:distribution <https://w3id.org/italia/data/distribution/stato-di-agibilita-CSV>,
-        <https://w3id.org/italia/data/distribution/stato-di-agibilita-JSON-LD>,
-        <https://w3id.org/italia/data/distribution/stato-di-agibilita-RDF-Turtle>,
-        <https://w3id.org/italia/data/distribution/stato-di-agibilita-XSLX> ;
+    dcat:distribution <https://w3id.org/italia/real-estate/data/StateProperty/distribution/stato-di-agibilita-CSV>,
+        <https://w3id.org/italia/real-estate/data/StateProperty/distribution/stato-di-agibilita-JSON-LD>,
+        <https://w3id.org/italia/real-estate/data/StateProperty/distribution/stato-di-agibilita-RDF-Turtle>,
+        <https://w3id.org/italia/real-estate/data/StateProperty/distribution/stato-di-agibilita-XSLX> ;
     dcat:keyword "Habitability Status"@en,
         "Stato di Agibilità"@it ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
@@ -120,21 +80,21 @@
         "Vocabolario Controllato degli Stati di Agibilità"@it ;
     dct:type <http://purl.org/adms/assettype/CodeList> ;
     ndc:keyConcept "stato-di-agibilita" ;
-    skos:hasTopConcept <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/AGIB>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/DEGRAD>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/DEMOL>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/INAG>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/NUOVA>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/PARZ>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/RISTR>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/SISM>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/VERIF> ;
+    skos:hasTopConcept <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/AGIB>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/DEGRAD>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/DEMOL>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/INAG>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/NUOVA>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/PARZ>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/RISTR>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/SISM>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/VERIF> ;
     skos:notation "Controlled Vocabulary for Habitability Status"@en,
         "Vocabolario Controllato degli Stati di Agibilità"@it ;
     xkos:numberOfLevels "1" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/AGIB> a skos:Concept,
-        :TipoStatoDiAgibilitàImmobile ;
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/AGIB> a skos:Concept,
+        :TipoStatoDiAgibilitaImmobile ;
     skos:prefLabel "AGIBILE"@it,
         "HABITABLE"@en ;
     skos:definition "Immobile certificato come idoneo all'uso e all'occupazione, conforme alle normative tecniche e di sicurezza vigenti."@it,
@@ -143,8 +103,8 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/stato-di-agibilita> ;
     skos:notation "AGIB" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/DEGRAD> a skos:Concept,
-        :TipoStatoDiAgibilitàImmobile ;
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/DEGRAD> a skos:Concept,
+        :TipoStatoDiAgibilitaImmobile ;
     skos:prefLabel "DEGRADATO"@it,
         "DETERIORATED"@en ;
     skos:definition "Immobile in condizioni di degrado fisico ma non oggetto di ordinanze di inagibilità, richiedente interventi di recupero."@it,
@@ -153,8 +113,8 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/stato-di-agibilita> ;
     skos:notation "DEGRAD" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/DEMOL> a skos:Concept,
-        :TipoStatoDiAgibilitàImmobile ;
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/DEMOL> a skos:Concept,
+        :TipoStatoDiAgibilitaImmobile ;
     skos:prefLabel "DA DEMOLIRE"@it,
         "TO BE DEMOLISHED"@en ;
     skos:definition "Immobile per cui è stata disposta la demolizione per motivi di sicurezza o urbanistici."@it,
@@ -163,8 +123,8 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/stato-di-agibilita> ;
     skos:notation "DEMOL" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/INAG> a skos:Concept,
-        :TipoStatoDiAgibilitàImmobile ;
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/INAG> a skos:Concept,
+        :TipoStatoDiAgibilitaImmobile ;
     skos:prefLabel "INAGIBILE"@it,
         "UNINHABITABLE"@en ;
     skos:definition "Immobile non idoneo all'uso per gravi carenze strutturali, impiantistiche o igienico-sanitarie, con divieto di occupazione."@it,
@@ -173,8 +133,8 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/stato-di-agibilita> ;
     skos:notation "INAG" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/NUOVA> a skos:Concept,
-        :TipoStatoDiAgibilitàImmobile ;
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/NUOVA> a skos:Concept,
+        :TipoStatoDiAgibilitaImmobile ;
     skos:prefLabel "NEW CONSTRUCTION"@en,
         "NUOVA COSTRUZIONE"@it ;
     skos:definition "Immobile di nuova edificazione in attesa di prima certificazione di agibilità."@it,
@@ -183,8 +143,8 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/stato-di-agibilita> ;
     skos:notation "NUOVA" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/PARZ> a skos:Concept,
-        :TipoStatoDiAgibilitàImmobile ;
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/PARZ> a skos:Concept,
+        :TipoStatoDiAgibilitaImmobile ;
     skos:prefLabel "PARTIALLY HABITABLE"@en,
         "PARZIALMENTE AGIBILE"@it ;
     skos:definition "Immobile utilizzabile solo per specifici usi o in determinate porzioni, con limitazioni documentate."@it,
@@ -193,8 +153,8 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/stato-di-agibilita> ;
     skos:notation "PARZ" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/RISTR> a skos:Concept,
-        :TipoStatoDiAgibilitàImmobile ;
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/RISTR> a skos:Concept,
+        :TipoStatoDiAgibilitaImmobile ;
     skos:prefLabel "IN RISTRUTTURAZIONE"@it,
         "UNDER RENOVATION"@en ;
     skos:definition "Immobile temporaneamente non utilizzabile a causa di interventi di ristrutturazione, manutenzione straordinaria o adeguamento."@it,
@@ -203,8 +163,8 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/stato-di-agibilita> ;
     skos:notation "RISTR" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/SISM> a skos:Concept,
-        :TipoStatoDiAgibilitàImmobile ;
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/SISM> a skos:Concept,
+        :TipoStatoDiAgibilitaImmobile ;
     skos:prefLabel "INAGIBILE PER EVENTI SISMICI"@it,
         "UNINHABITABLE DUE TO SEISMIC EVENTS"@en ;
     skos:definition "Immobile dichiarato temporaneamente o permanentemente inagibile a seguito di danni da eventi sismici."@it,
@@ -213,8 +173,8 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/stato-di-agibilita> ;
     skos:notation "SISM" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilita/VERIF> a skos:Concept,
-        :TipoStatoDiAgibilitàImmobile ;
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/VERIF> a skos:Concept,
+        :TipoStatoDiAgibilitaImmobile ;
     skos:prefLabel "IN VERIFICA"@it,
         "UNDER ASSESSMENT"@en ;
     skos:definition "Immobile in fase di accertamento tecnico dello stato di agibilità, in attesa di certificazione definitiva."@it,
@@ -222,5 +182,45 @@
     dct:identifier "VERIF" ;
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/stato-di-agibilita> ;
     skos:notation "VERIF" .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/stato-di-agibilita-CSV> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/stato-di-agibilita/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/stato-di-agibilita/latest/stato-di-agibilita.csv> ;
+    dct:description "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
+        "This is the distribution in CSV of the Linked Open Dataset of the Controlled Vocabulary for Habitability Status"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "CSV distribution of the Controlled Vocabulary for Habitability Status"@en,
+        "Distribuzione CSV del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/stato-di-agibilita-JSON-LD> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/stato-di-agibilita/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/stato-di-agibilita/latest/stato-di-agibilita.json> ;
+    dct:description "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
+        "This is the distribution in JSON-LD of the Linked Open Dataset of the Controlled Vocabulary for Habitability Status"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "Distribuzione JSON-LD del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
+        "JSON-LD distribution of the Controlled Vocabulary for Habitability Status"@en .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/stato-di-agibilita-RDF-Turtle> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/stato-di-agibilita/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/stato-di-agibilita/latest/stato-di-agibilita.ttl> ;
+    dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
+        "This is the distribution in RDF/Turtle of the Linked Open Dataset of the Controlled Vocabulary for Habitability Status"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "Distribuzione RDF/Turtle del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
+        "RDF/Turtle distribution of the Controlled Vocabulary for Habitability Status"@en .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/stato-di-agibilita-XSLX> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/stato-di-agibilita/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/stato-di-agibilita/latest/stato-di-agibilita.xlsx> ;
+    dct:description "Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
+        "This is the distribution in XLSX of the Linked Open Dataset of the Controlled Vocabulary for Habitability Status"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "Distribuzione XLSX del vocabolario controllato Vocabolario Controllato degli Stati di Agibilità"@it,
+        "XLSX distribution of the Controlled Vocabulary for Habitability Status"@en .
 
 ### Serialized using the ttlser deterministic serializer v1.2.0

@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/AGR",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/AGR",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -12,7 +12,7 @@
     "label_en": "AGRICULTURAL"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/COM",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/COM",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -20,11 +20,11 @@
     "id": "COM",
     "definition_it": "Immobile destinato ad attivit\u00e0 commerciali, di vendita al dettaglio o all'ingrosso.",
     "definition_en": "Property intended for commercial activities, retail or wholesale.",
-    "label_it": "COMMERCIALE",
-    "label_en": "COMMERCIAL"
+    "label_en": "COMMERCIAL",
+    "label_it": "COMMERCIALE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/CUL",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/CUL",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -32,11 +32,11 @@
     "id": "CUL",
     "definition_it": "Immobile destinato ad attivit\u00e0 culturali, museali, bibliotecarie o di spettacolo.",
     "definition_en": "Property intended for cultural, museum, library or entertainment activities.",
-    "label_it": "CULTURALE",
-    "label_en": "CULTURAL"
+    "label_en": "CULTURAL",
+    "label_it": "CULTURALE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/DEP",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/DEP",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -48,7 +48,7 @@
     "label_en": "STORAGE/WAREHOUSE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/IND",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IND",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -56,11 +56,11 @@
     "id": "IND",
     "definition_it": "Immobile destinato ad attivit\u00e0 produttive, manifatturiere o artigianali.",
     "definition_en": "Property intended for production, manufacturing or craft activities.",
-    "label_it": "INDUSTRIALE",
-    "label_en": "INDUSTRIAL"
+    "label_en": "INDUSTRIAL",
+    "label_it": "INDUSTRIALE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/IST",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IST",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -68,11 +68,11 @@
     "id": "IST",
     "definition_it": "Immobile destinato a funzioni pubbliche, amministrative o di servizio pubblico.",
     "definition_en": "Property intended for public, administrative or public service functions.",
-    "label_it": "ISTITUZIONALE",
-    "label_en": "INSTITUTIONAL"
+    "label_en": "INSTITUTIONAL",
+    "label_it": "ISTITUZIONALE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/RES",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/RES",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -80,11 +80,11 @@
     "id": "RES",
     "definition_it": "Immobile destinato ad abitazione civile e a servizi connessi alla residenza.",
     "definition_en": "Property intended for residential housing and related services.",
-    "label_it": "RESIDENZIALE",
-    "label_en": "RESIDENTIAL"
+    "label_en": "RESIDENTIAL",
+    "label_it": "RESIDENZIALE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/SAN",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SAN",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -92,11 +92,11 @@
     "id": "SAN",
     "definition_it": "Immobile destinato a strutture sanitarie, assistenziali o socio-sanitarie.",
     "definition_en": "Property intended for healthcare, care or social-health facilities.",
-    "label_it": "SANITARIO",
-    "label_en": "HEALTHCARE"
+    "label_en": "HEALTHCARE",
+    "label_it": "SANITARIO"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/SCO",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SCO",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -104,11 +104,11 @@
     "id": "SCO",
     "definition_it": "Immobile destinato a istruzione, formazione e attivit\u00e0 educative.",
     "definition_en": "Property intended for education, training and educational activities.",
-    "label_it": "SCOLASTICO",
-    "label_en": "EDUCATIONAL"
+    "label_en": "EDUCATIONAL",
+    "label_it": "SCOLASTICO"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/UFF",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/UFF",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -116,7 +116,7 @@
     "id": "UFF",
     "definition_it": "Immobile destinato ad attivit\u00e0 amministrative, direzionali e professionali.",
     "definition_en": "Property intended for administrative, management and professional activities.",
-    "label_it": "UFFICI",
-    "label_en": "OFFICES"
+    "label_en": "OFFICES",
+    "label_it": "UFFICI"
   }
 ]

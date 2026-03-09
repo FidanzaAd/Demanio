@@ -29,7 +29,7 @@ StateProperty:haCodiceSEC a owl:FunctionalProperty,
         owl:ObjectProperty ;
     rdfs:label "ha codice SEC"@it ;
     rdfs:domain StateProperty:BeneImmobileDelloStato ;
-    rdfs:range StateProperty:CodiceMEFRaccordoSECBeneImmobile .
+    rdfs:range StateProperty:CodiceMEFRaccordoSECImmobile .
 
 StateProperty:haDestinazioneDiUso a owl:FunctionalProperty,
         owl:ObjectProperty ;
@@ -52,7 +52,7 @@ StateProperty:haStatoDiAgibilità a owl:FunctionalProperty,
         owl:ObjectProperty ;
     rdfs:label "ha stato di agibilità"@it ;
     rdfs:domain StateProperty:StatoDelBeneImmobileDelloStato ;
-    rdfs:range StateProperty:TipoStatoDiAgibilitàImmobile .
+    rdfs:range StateProperty:TipoStatoDiAgibilitaImmobile .
 
 StateProperty:haStatoDiOccupazione a owl:FunctionalProperty,
         owl:ObjectProperty ;
@@ -119,7 +119,7 @@ StateProperty:CodiceMEFRaccordoSEC a owl:Class ;
     rdfs:label "Codice MEF raccordo SEC"@it ;
     rdfs:subClassOf CLV:Identifier .
 
-StateProperty:CodiceMEFRaccordoSECBeneImmobile a owl:Class ;
+StateProperty:CodiceMEFRaccordoSECImmobile a owl:Class ;
     rdfs:label "Codice MEF raccordo SEC bene immobile"@it ;
     rdfs:subClassOf StateProperty:CodiceMEFRaccordoSEC .
 
@@ -151,7 +151,7 @@ StateProperty:TipoDestinazioneDiUsoImmobile a owl:Class ;
 StateProperty:TipoDiAccessoImmobile a owl:Class ;
     rdfs:label "Tipo di accesso immobile"@it .
 
-StateProperty:TipoStatoDiAgibilitàImmobile a owl:Class ;
+StateProperty:TipoStatoDiAgibilitaImmobile a owl:Class ;
     rdfs:label "Tipo stato di agibilità immobile"@it .
 
 StateProperty:TipoStatoDiOccupazioneImmobile a owl:Class ;

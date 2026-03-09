@@ -399,10 +399,10 @@
           </annotations>
         </iri>
         <iri>
-          <value>https://w3id.org/italia/real-estate/onto/StateProperty/CodiceMEFRaccordoSECBeneImmobile</value>
+          <value>https://w3id.org/italia/real-estate/onto/StateProperty/CodiceMEFRaccordoSECImmobile</value>
           <annotations>
             <annotation>
-              <subject>https://w3id.org/italia/real-estate/onto/StateProperty/CodiceMEFRaccordoSECBeneImmobile</subject>
+              <subject>https://w3id.org/italia/real-estate/onto/StateProperty/CodiceMEFRaccordoSECImmobile</subject>
               <property>http://www.w3.org/2000/01/rdf-schema#label</property>
               <object>
                 <lexicalForm>Codice MEF raccordo SEC bene immobile</lexicalForm>
@@ -497,10 +497,10 @@
           </annotations>
         </iri>
         <iri>
-          <value>https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitàImmobile</value>
+          <value>https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile</value>
           <annotations>
             <annotation>
-              <subject>https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitàImmobile</subject>
+              <subject>https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile</subject>
               <property>http://www.w3.org/2000/01/rdf-schema#label</property>
               <object>
                 <lexicalForm>Tipo stato di agibilità immobile</lexicalForm>
@@ -777,7 +777,7 @@
         </node>
         <node type="concept" id="n36" color="#fcfcfc">
           <geometry x="790" y="420" height="50" width="110"/>
-          <iri>https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitàImmobile</iri>
+          <iri>https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile</iri>
           <label x="790" y="420" height="38" customSize="0" size="12" width="110"/>
         </node>
         <node type="role" id="n37" color="#fcfcfc">
@@ -833,7 +833,7 @@
         </node>
         <node type="concept" id="n48" color="#fcfcfc">
           <geometry x="-480" y="80" height="50" width="110"/>
-          <iri>https://w3id.org/italia/real-estate/onto/StateProperty/CodiceMEFRaccordoSECBeneImmobile</iri>
+          <iri>https://w3id.org/italia/real-estate/onto/StateProperty/CodiceMEFRaccordoSECImmobile</iri>
           <label x="-480" y="80" height="53" customSize="0" size="12" width="110"/>
         </node>
         <node type="concept" id="n49" color="#fcfcfc">

@@ -6,10 +6,10 @@
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
     ],
     "id": "23A1",
-    "definition_it": "Beni appartenenti al patrimonio dello Stato suscettibili di alienazione o utilizzazione economica secondo le disposizioni del Codice civile e della normativa patrimoniale.",
     "definition_en": "Assets belonging to the State's patrimony that can be alienated or economically exploited according to the provisions of the Civil Code and patrimonial regulations.",
-    "label_it": "BENI DISPONIBILI",
-    "label_en": "AVAILABLE ASSETS"
+    "definition_it": "Beni appartenenti al patrimonio dello Stato suscettibili di alienazione o utilizzazione economica secondo le disposizioni del Codice civile e della normativa patrimoniale.",
+    "label_en": "AVAILABLE ASSETS",
+    "label_it": "BENI DISPONIBILI"
   },
   {
     "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23A4",
@@ -20,8 +20,8 @@
     "id": "23A4",
     "definition_it": "Beni patrimoniali costituiti da giacimenti minerari e dalle relative pertinenze fisiche e infrastrutturali, disciplinati dalla normativa mineraria.",
     "definition_en": "Patrimonial assets consisting of mineral deposits and their related physical and infrastructural appurtenances, governed by mining regulations.",
-    "label_it": "MINIERE E RELATIVE PERTINENZE",
-    "label_en": "MINES AND RELATED APPURTENANCES"
+    "label_en": "MINES AND RELATED APPURTENANCES",
+    "label_it": "MINIERE E RELATIVE PERTINENZE"
   },
   {
     "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23A5",
@@ -30,10 +30,10 @@
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
     ],
     "id": "23A5",
-    "definition_it": "Beni appartenenti allo Stato e assegnati in uso gratuito o oneroso a pubbliche amministrazioni per finalit\u00e0 istituzionali.",
     "definition_en": "Assets belonging to the State and assigned for free or paid use to public administrations for institutional purposes.",
-    "label_it": "BENI ASSEGNATI IN USO GOVERNATIVO",
-    "label_en": "ASSETS ASSIGNED FOR GOVERNMENTAL USE"
+    "definition_it": "Beni appartenenti allo Stato e assegnati in uso gratuito o oneroso a pubbliche amministrazioni per finalit\u00e0 istituzionali.",
+    "label_en": "ASSETS ASSIGNED FOR GOVERNMENTAL USE",
+    "label_it": "BENI ASSEGNATI IN USO GOVERNATIVO"
   },
   {
     "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23A6",
@@ -42,8 +42,8 @@
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
     ],
     "id": "23A6",
-    "definition_it": "Beni del patrimonio dello Stato non alienabili, in quanto destinati a un pubblico servizio o a un uso di pubblica utilit\u00e0, pur non appartenendo al demanio necessario.",
     "definition_en": "Assets of the State's patrimony that cannot be alienated, as they are intended for public service or public utility use, although not belonging to the necessary public domain.",
+    "definition_it": "Beni del patrimonio dello Stato non alienabili, in quanto destinati a un pubblico servizio o a un uso di pubblica utilit\u00e0, pur non appartenendo al demanio necessario.",
     "label_it": "BENI NON DISPONIBILI",
     "label_en": "UNAVAILABLE ASSETS"
   },
@@ -56,8 +56,8 @@
     "id": "23B2",
     "definition_it": "Beni patrimoniali dello Stato gravati da diritti reali (usufrutto, servit\u00f9, enfiteusi, ecc.) costituiti a favore di soggetti diversi dallo Stato.",
     "definition_en": "State patrimonial assets encumbered by real rights (usufruct, easement, emphyteusis, etc.) established in favor of entities other than the State.",
-    "label_it": "BENI SU CUI GRAVANO DIR. REALI A FAVORE TERZI",
-    "label_en": "ASSETS ENCUMBERED BY REAL RIGHTS IN FAVOR OF THIRD PARTIES"
+    "label_en": "ASSETS ENCUMBERED BY REAL RIGHTS IN FAVOR OF THIRD PARTIES",
+    "label_it": "BENI SU CUI GRAVANO DIR. REALI A FAVORE TERZI"
   },
   {
     "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/23C3",
@@ -66,8 +66,8 @@
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoCategoriaPatrimonialeImmobile"
     ],
     "id": "23C3",
-    "definition_it": "Diritti reali attivi spettanti allo Stato su beni di propriet\u00e0 altrui, aventi natura patrimoniale (es. servit\u00f9, enfiteusi attiva, usufrutto).",
     "definition_en": "Active real rights belonging to the State on assets owned by others, having a patrimonial nature (e.g., easement, active emphyteusis, usufruct).",
+    "definition_it": "Diritti reali attivi spettanti allo Stato su beni di propriet\u00e0 altrui, aventi natura patrimoniale (es. servit\u00f9, enfiteusi attiva, usufrutto).",
     "label_it": "DIRITTI REALI SU BENI PATRIMONIALI",
     "label_en": "REAL RIGHTS ON PATRIMONIAL ASSETS"
   },

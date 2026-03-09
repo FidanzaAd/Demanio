@@ -20,46 +20,6 @@
     vcard:fn "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog" ;
     vcard:hasEmail <mailto:ndc-segr-tec@istat.it> .
 
-<https://w3id.org/italia/data/distribution/destinazione-di-uso-CSV> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/destinazione-di-uso/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/destinazione-di-uso/latest/destinazione-di-uso.csv> ;
-    dct:description "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
-        "This is the distribution in CSV of the Linked Open Dataset of the Controlled Vocabulary for Intended Use"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "CSV distribution of the Controlled Vocabulary for Intended Use"@en,
-        "Distribuzione CSV del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it .
-
-<https://w3id.org/italia/data/distribution/destinazione-di-uso-JSON-LD> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/destinazione-di-uso/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/destinazione-di-uso/latest/destinazione-di-uso.json> ;
-    dct:description "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
-        "This is the distribution in JSON-LD of the Linked Open Dataset of the Controlled Vocabulary for Intended Use"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "Distribuzione JSON-LD del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
-        "JSON-LD distribution of the Controlled Vocabulary for Intended Use"@en .
-
-<https://w3id.org/italia/data/distribution/destinazione-di-uso-RDF-Turtle> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/destinazione-di-uso/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/destinazione-di-uso/latest/destinazione-di-uso.ttl> ;
-    dct:description "Questa è la distribuzione Distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
-        "This is the distribution in Distribuzione RDF/Turtle of the Linked Open Dataset of the Controlled Vocabulary for Intended Use"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "Distribuzione Distribuzione RDF/Turtle del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
-        "Distribuzione RDF/Turtle distribution of the Controlled Vocabulary for Intended Use"@en .
-
-<https://w3id.org/italia/data/distribution/destinazione-di-uso-XSLX> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/destinazione-di-uso/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/destinazione-di-uso/latest/destinazione-di-uso.xlsx> ;
-    dct:description "Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
-        "This is the distribution in XLSX of the Linked Open Dataset of the Controlled Vocabulary for Intended Use"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "Distribuzione XLSX del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
-        "XLSX distribution of the Controlled Vocabulary for Intended Use"@en .
-
 <https://w3id.org/italia/data/public-organization/agd> a dcatapit:Agent,
         foaf:Agent ;
     dct:identifier "agd" ;
@@ -97,10 +57,10 @@
     rdfs:isDefinedBy <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
     dcat:contactPoint <https://w3id.org/italia/data/contact-point/ISTAT-NDC> ;
-    dcat:distribution <https://w3id.org/italia/data/distribution/destinazione-di-uso-CSV>,
-        <https://w3id.org/italia/data/distribution/destinazione-di-uso-JSON-LD>,
-        <https://w3id.org/italia/data/distribution/destinazione-di-uso-RDF-Turtle>,
-        <https://w3id.org/italia/data/distribution/destinazione-di-uso-XSLX> ;
+    dcat:distribution <https://w3id.org/italia/real-estate/data/StateProperty/distribution/destinazione-di-uso-CSV>,
+        <https://w3id.org/italia/real-estate/data/StateProperty/distribution/destinazione-di-uso-JSON-LD>,
+        <https://w3id.org/italia/real-estate/data/StateProperty/distribution/destinazione-di-uso-RDF-Turtle>,
+        <https://w3id.org/italia/real-estate/data/StateProperty/distribution/destinazione-di-uso-XSLX> ;
     dcat:keyword "Destinazione d'Uso"@it,
         "Intended Use"@en ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
@@ -121,21 +81,21 @@
         "Vocabolario Controllato delle Destinazioni d'Uso"@it ;
     dct:type <http://purl.org/adms/assettype/CodeList> ;
     ndc:keyConcept "destinazione-di-uso" ;
-    skos:hasTopConcept <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/AGR>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/COM>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/CUL>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/DEP>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/IND>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/IST>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/RES>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/SAN>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/SCO>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/UFF> ;
+    skos:hasTopConcept <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/AGR>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/COM>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/CUL>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/DEP>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IND>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IST>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/RES>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SAN>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SCO>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/UFF> ;
     skos:notation "Controlled Vocabulary for Intended Use"@en,
         "Vocabolario Controllato delle Destinazioni d'Uso"@it ;
     xkos:numberOfLevels "1" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/AGR> a skos:Concept,
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/AGR> a skos:Concept,
         :TipoDestinazioneDiUsoImmobile ;
     skos:prefLabel "AGRICOLO"@it,
         "AGRICULTURAL"@en ;
@@ -145,7 +105,7 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     skos:notation "AGR" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/COM> a skos:Concept,
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/COM> a skos:Concept,
         :TipoDestinazioneDiUsoImmobile ;
     skos:prefLabel "COMMERCIAL"@en,
         "COMMERCIALE"@it ;
@@ -155,7 +115,7 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     skos:notation "COM" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/CUL> a skos:Concept,
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/CUL> a skos:Concept,
         :TipoDestinazioneDiUsoImmobile ;
     skos:prefLabel "CULTURAL"@en,
         "CULTURALE"@it ;
@@ -165,7 +125,7 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     skos:notation "CUL" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/DEP> a skos:Concept,
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/DEP> a skos:Concept,
         :TipoDestinazioneDiUsoImmobile ;
     skos:prefLabel "DEPOSITO/MAGAZZINO"@it,
         "STORAGE/WAREHOUSE"@en ;
@@ -175,7 +135,7 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     skos:notation "DEP" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/IND> a skos:Concept,
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IND> a skos:Concept,
         :TipoDestinazioneDiUsoImmobile ;
     skos:prefLabel "INDUSTRIAL"@en,
         "INDUSTRIALE"@it ;
@@ -185,7 +145,7 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     skos:notation "IND" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/IST> a skos:Concept,
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IST> a skos:Concept,
         :TipoDestinazioneDiUsoImmobile ;
     skos:prefLabel "INSTITUTIONAL"@en,
         "ISTITUZIONALE"@it ;
@@ -195,7 +155,7 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     skos:notation "IST" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/RES> a skos:Concept,
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/RES> a skos:Concept,
         :TipoDestinazioneDiUsoImmobile ;
     skos:prefLabel "RESIDENTIAL"@en,
         "RESIDENZIALE"@it ;
@@ -205,7 +165,7 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     skos:notation "RES" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/SAN> a skos:Concept,
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SAN> a skos:Concept,
         :TipoDestinazioneDiUsoImmobile ;
     skos:prefLabel "HEALTHCARE"@en,
         "SANITARIO"@it ;
@@ -215,7 +175,7 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     skos:notation "SAN" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/SCO> a skos:Concept,
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SCO> a skos:Concept,
         :TipoDestinazioneDiUsoImmobile ;
     skos:prefLabel "EDUCATIONAL"@en,
         "SCOLASTICO"@it ;
@@ -225,7 +185,7 @@
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     skos:notation "SCO" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUso/UFF> a skos:Concept,
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/UFF> a skos:Concept,
         :TipoDestinazioneDiUsoImmobile ;
     skos:prefLabel "OFFICES"@en,
         "UFFICI"@it ;
@@ -234,5 +194,45 @@
     dct:identifier "UFF" ;
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
     skos:notation "UFF" .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/destinazione-di-uso-CSV> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/destinazione-di-uso/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/destinazione-di-uso/latest/destinazione-di-uso.csv> ;
+    dct:description "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
+        "This is the distribution in CSV of the Linked Open Dataset of the Controlled Vocabulary for Intended Use"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "CSV distribution of the Controlled Vocabulary for Intended Use"@en,
+        "Distribuzione CSV del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/destinazione-di-uso-JSON-LD> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/destinazione-di-uso/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/destinazione-di-uso/latest/destinazione-di-uso.json> ;
+    dct:description "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
+        "This is the distribution in JSON-LD of the Linked Open Dataset of the Controlled Vocabulary for Intended Use"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "Distribuzione JSON-LD del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
+        "JSON-LD distribution of the Controlled Vocabulary for Intended Use"@en .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/destinazione-di-uso-RDF-Turtle> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/destinazione-di-uso/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/destinazione-di-uso/latest/destinazione-di-uso.ttl> ;
+    dct:description "Questa è la distribuzione Distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
+        "This is the distribution in Distribuzione RDF/Turtle of the Linked Open Dataset of the Controlled Vocabulary for Intended Use"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "Distribuzione Distribuzione RDF/Turtle del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
+        "Distribuzione RDF/Turtle distribution of the Controlled Vocabulary for Intended Use"@en .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/destinazione-di-uso-XSLX> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/destinazione-di-uso/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/destinazione-di-uso/latest/destinazione-di-uso.xlsx> ;
+    dct:description "Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
+        "This is the distribution in XLSX of the Linked Open Dataset of the Controlled Vocabulary for Intended Use"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "Distribuzione XLSX del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
+        "XLSX distribution of the Controlled Vocabulary for Intended Use"@en .
 
 ### Serialized using the ttlser deterministic serializer v1.2.0

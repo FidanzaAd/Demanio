@@ -78,7 +78,7 @@ ObjectProperty: StateProperty:haCodiceSEC
         StateProperty:BeneImmobileDelloStato
 
     Range:
-        StateProperty:CodiceMEFRaccordoSECBeneImmobile
+        StateProperty:CodiceMEFRaccordoSECImmobile
 
 
 ObjectProperty: StateProperty:haDestinazioneDiUso
@@ -135,7 +135,7 @@ ObjectProperty: StateProperty:haStatoDiAgibilità
         StateProperty:StatoDelBeneImmobileDelloStato
 
     Range:
-        StateProperty:TipoStatoDiAgibilitàImmobile
+        StateProperty:TipoStatoDiAgibilitaImmobile
 
 
 ObjectProperty: StateProperty:haStatoDiOccupazione
@@ -259,7 +259,7 @@ Class: StateProperty:CodiceMEFRaccordoSEC
         CLV:Identifier
 
 
-Class: StateProperty:CodiceMEFRaccordoSECBeneImmobile
+Class: StateProperty:CodiceMEFRaccordoSECImmobile
 
     Annotations:
         rdfs:label "Codice MEF raccordo SEC bene immobile"@it
@@ -317,7 +317,7 @@ Class: StateProperty:TipoDiAccessoImmobile
         rdfs:label "Tipo di accesso immobile"@it
 
 
-Class: StateProperty:TipoStatoDiAgibilitàImmobile
+Class: StateProperty:TipoStatoDiAgibilitaImmobile
 
     Annotations:
         rdfs:label "Tipo stato di agibilità immobile"@it
