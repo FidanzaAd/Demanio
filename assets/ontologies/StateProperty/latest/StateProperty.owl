@@ -874,7 +874,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dct:identifier"/>
         <IRI>https://w3id.org/italia/data/public-organization/agd</IRI>
-        <Literal>Demanio</Literal>
+        <Literal>agd</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
